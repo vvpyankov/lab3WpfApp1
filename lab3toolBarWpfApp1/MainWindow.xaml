@@ -1,0 +1,25 @@
+﻿<Window x:Class="lab3toolBarWpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab3toolBarWpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="800">
+    <Grid>
+        <ToolBar Margin="5" Padding="5" VerticalAlignment="Top">
+            <Button Width="50" Height="50">
+                <Image Source="D:\ITMO\projects\lab3WpfApp1\lab3toolBarWpfApp1\data\IE.jpg"/>
+            </Button>
+            <Separator/>
+            <Button Width="50" Height="50">
+                <Image Source="D:\ITMO\projects\lab3WpfApp1\lab3toolBarWpfApp1\data\WF.jpg"/>
+            </Button>
+            <Separator/>
+            <Button Width="50" Height="50">
+                <Image Source="D:\ITMO\projects\lab3WpfApp1\lab3toolBarWpfApp1\data\WB.jpg"/>
+            </Button>
+        </ToolBar>
+
+    </Grid>
+</Window>
